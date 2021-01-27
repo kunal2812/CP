@@ -1,4 +1,22 @@
 {
+  "CF105598361": {
+    "contest_id": 115,
+    "language": "GNU C++14",
+    "path": "codeforces/115/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Party",
+    "problem_url": "https://codeforces.com/contest/115/problem/A",
+    "submission_id": "CF105598361",
+    "submission_url": "https://codeforces.com/contest/115/submission/105598361",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*900"
+    ],
+    "timestamp": "Jan/27/2021 22:05"
+  },
   "CF105605985": {
     "contest_id": 913,
     "language": "GNU C++14",
