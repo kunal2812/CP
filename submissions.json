@@ -973,6 +973,24 @@
     ],
     "timestamp": "Mar/05/2021 21:07"
   },
+  "CF109868954": {
+    "contest_id": 1501,
+    "language": "GNU C++14",
+    "path": "codeforces/1501/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Going Home",
+    "problem_url": "https://codeforces.com/contest/1501/problem/C",
+    "submission_id": "CF109868954",
+    "submission_url": "https://codeforces.com/contest/1501/submission/109868954",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Mar/13/2021 15:56"
+  },
   "CF111108678": {
     "contest_id": 1331,
     "language": "PyPy 3",
