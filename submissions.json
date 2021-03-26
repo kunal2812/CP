@@ -973,6 +973,21 @@
     ],
     "timestamp": "Mar/05/2021 21:07"
   },
+  "CF111108678": {
+    "contest_id": 1331,
+    "language": "PyPy 3",
+    "path": "codeforces/1331/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Is it rated?",
+    "problem_url": "https://codeforces.com/contest/1331/problem/A",
+    "submission_id": "CF111108678",
+    "submission_url": "https://codeforces.com/contest/1331/submission/111108678",
+    "tags": [
+      "*special problem"
+    ],
+    "timestamp": "Mar/26/2021 13:06"
+  },
   "CF111109653": {
     "contest_id": 1331,
     "language": "PyPy 3",
