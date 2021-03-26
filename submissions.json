@@ -973,6 +973,23 @@
     ],
     "timestamp": "Mar/05/2021 21:07"
   },
+  "CF111109653": {
+    "contest_id": 1331,
+    "language": "PyPy 3",
+    "path": "codeforces/1331/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Limericks",
+    "problem_url": "https://codeforces.com/contest/1331/problem/B",
+    "submission_id": "CF111109653",
+    "submission_url": "https://codeforces.com/contest/1331/submission/111109653",
+    "tags": [
+      "*special problem",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Mar/26/2021 13:19"
+  },
   "CF111110207": {
     "contest_id": 1331,
     "language": "PyPy 3",
