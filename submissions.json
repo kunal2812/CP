@@ -1370,6 +1370,22 @@
     ],
     "timestamp": "Apr/22/2021 15:12"
   },
+  "CF113906635": {
+    "contest_id": 1516,
+    "language": "GNU C++14",
+    "path": "codeforces/1516/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tit for Tat",
+    "problem_url": "https://codeforces.com/contest/1516/problem/A",
+    "submission_id": "CF113906635",
+    "submission_url": "https://codeforces.com/contest/1516/submission/113906635",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Apr/22/2021 22:04"
+  },
   "CF113941072": {
     "contest_id": 1516,
     "language": "GNU C++14",
