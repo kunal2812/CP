@@ -78,6 +78,7 @@ void Solution(){
 }
 
 int main() {
+    fast;
     int T;
     cin >> T;
     while(T!=0){
