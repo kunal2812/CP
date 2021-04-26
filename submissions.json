@@ -1832,6 +1832,25 @@
     ],
     "timestamp": "Apr/23/2021 23:22"
   },
+  "CF114292128": {
+    "contest_id": 1451,
+    "language": "GNU C++14",
+    "path": "codeforces/1451/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Non-Substring Subsequence",
+    "problem_url": "https://codeforces.com/contest/1451/problem/B",
+    "submission_id": "CF114292128",
+    "submission_url": "https://codeforces.com/contest/1451/submission/114292128",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Apr/26/2021 20:43"
+  },
   "CF114295089": {
     "contest_id": 1466,
     "language": "GNU C++14",
