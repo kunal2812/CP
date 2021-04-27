@@ -1832,6 +1832,25 @@
     ],
     "timestamp": "Apr/23/2021 23:22"
   },
+  "CF114365091": {
+    "contest_id": 522,
+    "language": "GNU C++14",
+    "path": "codeforces/522/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Photo to Remember",
+    "problem_url": "https://codeforces.com/contest/522/problem/B",
+    "submission_id": "CF114365091",
+    "submission_url": "https://codeforces.com/contest/522/submission/114365091",
+    "tags": [
+      "*special problem",
+      "data structures",
+      "dp",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Apr/27/2021 18:54"
+  },
   "CF114564498": {
     "contest_id": 1519,
     "language": "GNU C++14",
