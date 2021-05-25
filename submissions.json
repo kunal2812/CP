@@ -1420,6 +1420,24 @@
     ],
     "timestamp": "Apr/23/2021 23:22"
   },
+  "CF117345419": {
+    "contest_id": 1529,
+    "language": "GNU C++14",
+    "path": "codeforces/1529/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sifid and Strange Subsequences",
+    "problem_url": "https://codeforces.com/contest/1529/problem/B",
+    "submission_id": "CF117345419",
+    "submission_url": "https://codeforces.com/contest/1529/submission/117345419",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "May/25/2021 22:39"
+  },
   "CF117394762": {
     "contest_id": 1525,
     "language": "GNU C++14",
