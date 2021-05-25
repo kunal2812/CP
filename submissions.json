@@ -1420,6 +1420,23 @@
     ],
     "timestamp": "Apr/23/2021 23:22"
   },
+  "CF117320932": {
+    "contest_id": 1525,
+    "language": "GNU C++14",
+    "path": "codeforces/1525/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Potion-making",
+    "problem_url": "https://codeforces.com/contest/1525/problem/A",
+    "submission_id": "CF117320932",
+    "submission_url": "https://codeforces.com/contest/1525/submission/117320932",
+    "tags": [
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "May/25/2021 17:54"
+  },
   "CF117345419": {
     "contest_id": 1529,
     "language": "GNU C++14",
