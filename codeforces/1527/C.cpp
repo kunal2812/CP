@@ -1,4 +1,3 @@
-#pragma GCC optimize("Ofast")
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -7,7 +6,7 @@ using namespace std;
 #define ll long long
 #define mp make_pair
 #define pb push_back
-#define fast ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define fast  ios_base::sync_with_stdio(false);cin.tie(NULL);
 #define IN for(int i=1;i<=n;i++){cin >> a[i];}
 #define OUT for(int i=1;i<=n;i++){cout << a[i] << " ";}
 #define yes cout << "YES" << endl; return;
@@ -48,14 +47,18 @@ void Solution(){
         cin >> a[i];
     }
     unordered_map<ll, ll> m;
-    ll c=0;
+    ll dp[100005];
+    dp[0]=0;
     for(int i=1;i<=n;i++){
         if(m[a[i]]>0){
-            c = c+m[a[i]]*(n-i+1);
+            dp[i] = dp[i-1]+m[a[i]]*(n-i+1);
+        }
+        else{
+            dp[i]=dp[i-1];
         }
         m[a[i]]+=i;
     }
-    cout << c << endl;
+    cout << dp[n] << endl;
 }
 
 int main() {
