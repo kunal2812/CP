@@ -1,158 +1,123 @@
-#pragma GCC target ("avx2")
-#pragma GCC optimize ("O3")
-#pragma GCC optimize ("unroll-loops")
 #include <bits/stdc++.h>
+
 using namespace std;
 
+#define ull unsigned long long
 #define ll long long
+#define mp make_pair
 #define pb push_back
-#define fast ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-
-#define yes cout << "YES" << endl; return
-#define no  cout << "NO" << endl; return
-
+#define fast  ios_base::sync_with_stdio(false);cin.tie(NULL);
+#define IN for(int i=1;i<=n;i++){cin >> a[i];}
+#define OUT for(int i=1;i<=n;i++){cout << a[i] << " ";}
+#define yes cout << "YES" << endl; return;
+#define no  cout << "NO" << endl; return;
 #define dc double
 #define ff first
 #define sc second
-#define endl '\n'
-#define nl cout << endl
-
-#define sorta(v) sort(v.begin(), v.end())
-#define sortd(v) sort(v.begin(), v.end(), greater<int>())
-#define rev(s) reverse(s.begin(), s.end())
+#define nl cout << endl;
 
 typedef vector<int> vi;
 typedef vector<ll> vll;
 typedef map<int,int> mii;
+typedef map<char,int> mci;
+typedef map<string,int> msi;
 typedef pair<int, int> pii;
+typedef unordered_map<char, int> umci;
+typedef unordered_map<string, int> umsi;
 typedef unordered_map<int, int> umii;
-
+typedef unordered_map<int, vi> umiv;
 typedef unordered_set<int> usi;
-
+typedef unordered_set<ll> usll;
 typedef priority_queue<int> pqmax;
 typedef priority_queue<int, vector<int>, greater<int>> pqmin;
 
-#define all(v) v.begin(), v.end()
-#define rall(v) v.rbegin(), v.rend()
-#define sz(a) a.size()
-#define pr(x) cout << x << endl
 
-#define ctset(n) __builtin_popcountll(n)
-#define ctunset(n) __builtin_ctzll(x)
-#define gtmax(a) *max_element(a.begin(), a.end())
-#define gtmin(a) *min_element(a.begin(), a.end())
+// for(int i=0;i<n;i++){
+//     cin >> a[i];
+// }
 
-// For problem involving precision
-// cout << fixed << setprecision(10) << xx+mx << endl;
-
-#define fr(i, a, b, c) for(int i=a; i<b; i+=c)
-#define rfr(i, a, b, c) for(int i=a; i>=b;i-=c)
-
-ll mod = 1000000007;
-
-int dx[4] = {-1, 0, 1, 0};
-int dy[4] = {0, 1, 0, -1};
-
-/*
-
-*/
-
-bool equal(char c, int cnts1, int cnts0){
-    if(c=='0' && cnts0>0){
-        return true;
-    }
-    if(c=='1' && cnts1>0){
-        return true;
-    }
-    return false;
-}
-
-void solve(int xx){ 
-    string s, t; cin >> s >> t;
-    int n = sz(s), m = sz(t);
-    if(m>n){
-        pr(s); return;
-    }
-    int cnts1 = 0, cntt1 = 0;
-    for(auto x:s){
-        if(x=='1'){
-            cnts1++;
-        }
-    }
-    for(auto x:t){
-        if(x=='1'){
-            cntt1++;
-        }
-    }
-    int cnts0 = n-cnts1, cntt0 = m-cntt1;
-    vi pi(n,0);
-    fr(i,1,m,1){
+int lps(string s)
+{
+    int n = (int)s.length();
+    vector<int> pi(n);
+    for (int i = 1; i < n; i++) {
         int j = pi[i-1];
-        while(j>0 && t[i]!=t[j]){
+        while (j > 0 && s[i] != s[j])
             j = pi[j-1];
-        }
-        if(t[i]==t[j]){
+        if (s[i] == s[j])
             j++;
-        }
         pi[i] = j;
     }
-    // fr(i,0,m,1){
-    //     cout << pi[i] << " ";
-    // }nl;
-    string ans = ""; int i=0;
-    while(cnts1>0 && cnts0>0){
-        if(i<m){
-            if(t[i]=='1' && cnts1>0){
-                ans+='1';
-                cnts1--;
-            }
-            else if(t[i]=='0' && cnts0>0){
-                ans+='0';
-                cnts0--;
-            }
-            else{
-                break;
-            }
+    return pi[n-1];
+}
+
+void Solution(){
+    string s,t;
+    cin >> s >> t;
+    if(s.length()<t.length()){
+        cout << s << endl; return;
+    }
+    // cout << lps(t) << endl;
+    string pref = t.substr(0, lps(t));
+    // cout << pref << endl;
+    int cts1=0,cts0=0,ctt1=0,ctt0=0,cp1=0,cp0=0;
+    for(int i=0;i<s.length();i++){
+        if(s[i]=='1'){
+            cts1++;
         }
         else{
-            int j = pi[i-1];
-            while(j>0 && !equal(t[j], cnts1, cnts0)){
-                j = pi[j-1];
-            }
-            if(equal(t[j], cnts1, cnts0)){
-                ans+=t[j];
-                j++;
-            }
-            pi[i] = j;
-            if(ans[i]=='1'){
-                cnts1--;
-            }
-            else if(ans[i]=='0'){
-                cnts0--;
-            }
+            cts0++;
         }
-        i++;
     }
-    // fr(i,0,n,1){
-    //     cout << pi[i] << " ";
-    // }nl;
-    // pr(ans);
-    while(cnts1>0){
+    for(int i=0;i<t.length();i++){
+        if(t[i]=='1'){
+            ctt1++;
+        }
+        else{
+            ctt0++;
+        }
+    }
+    for(int i=0;i<pref.length();i++){
+        if(pref[i]=='1'){
+            cp1++;
+        }
+        else{
+            cp0++;
+        }
+    }
+    if(cts1<ctt1 || cts0<ctt0){
+        cout << s << endl; return;
+    }
+    string ans=t;
+    cts1-=ctt1;
+    cts0-=ctt0;
+    int ind = pref.length();
+    string add = t.substr(ind, t.length()-ind);
+    // if(t.length()==1){
+    //     add = pref;
+    //     cp1 = 0;
+    //     cp0 = 0;
+    // }
+    // cout << add << endl;
+    while(cts1>=(ctt1-cp1) && cts0>=(ctt0-cp0)){
+        ans+=add;
+        cts1-=(ctt1-cp1);
+        cts0-=(ctt0-cp0);
+    }
+    while(cts1>0){
         ans+='1';
-        cnts1--;
+        cts1--;
     }
-    while(cnts0>0){
+    while(cts0>0){
         ans+='0';
-        cnts0--;
+        cts0--;
     }
-    pr(ans);
+    cout << ans << endl;
 }
 
 int main() {
     fast;
-    int t, i=0; 
-    // cin >> t;
-    // while(t--)  
-        solve(++i);
+    Solution();
     return 0;
 }
+

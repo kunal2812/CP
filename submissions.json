@@ -1420,6 +1420,24 @@
     ],
     "timestamp": "Apr/23/2021 23:22"
   },
+  "CF117590558": {
+    "contest_id": 1137,
+    "language": "GNU C++17",
+    "path": "codeforces/1137/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Camp Schedule",
+    "problem_url": "https://codeforces.com/contest/1137/problem/B",
+    "submission_id": "CF117590558",
+    "submission_url": "https://codeforces.com/contest/1137/submission/117590558",
+    "tags": [
+      "greedy",
+      "hashing",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "May/28/2021 18:54"
+  },
   "CF117686735": {
     "contest_id": 1526,
     "language": "GNU C++17",
