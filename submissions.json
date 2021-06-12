@@ -1,4 +1,21 @@
 {
+  "CF119266729": {
+    "contest_id": 1527,
+    "language": "GNU C++17",
+    "path": "codeforces/1527/B1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B1",
+    "problem_name": "Palindrome Game (easy version)",
+    "problem_url": "https://codeforces.com/contest/1527/problem/B1",
+    "submission_id": "CF119266729",
+    "submission_url": "https://codeforces.com/contest/1527/submission/119266729",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "*1200"
+    ],
+    "timestamp": "Jun/12/2021 22:17"
+  },
   "CF119278561": {
     "contest_id": 1535,
     "language": "GNU C++17",
