@@ -1,4 +1,20 @@
 {
+  "CF119470029": {
+    "contest_id": 1484,
+    "language": "GNU C++17",
+    "path": "codeforces/1484/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Prison Break",
+    "problem_url": "https://codeforces.com/contest/1484/problem/A",
+    "submission_id": "CF119470029",
+    "submission_url": "https://codeforces.com/contest/1484/submission/119470029",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Jun/14/2021 21:33"
+  },
   "CF119481381": {
     "contest_id": 1520,
     "language": "GNU C++17",
