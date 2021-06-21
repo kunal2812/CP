@@ -2976,6 +2976,23 @@
     ],
     "timestamp": "Jun/20/2021 15:56"
   },
+  "CF120208902": {
+    "contest_id": 1454,
+    "language": "GNU C++14",
+    "path": "codeforces/1454/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sequence Transformation",
+    "problem_url": "https://codeforces.com/contest/1454/problem/C",
+    "submission_id": "CF120208902",
+    "submission_url": "https://codeforces.com/contest/1454/submission/120208902",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jun/21/2021 18:19"
+  },
   "CF120258994": {
     "contest_id": 1454,
     "language": "GNU C++14",
