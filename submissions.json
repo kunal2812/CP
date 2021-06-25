@@ -1,4 +1,22 @@
 {
+  "CF120528497": {
+    "contest_id": 1465,
+    "language": "GNU C++17",
+    "path": "codeforces/1465/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fair Numbers",
+    "problem_url": "https://codeforces.com/contest/1465/problem/B",
+    "submission_id": "CF120528497",
+    "submission_url": "https://codeforces.com/contest/1465/submission/120528497",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Jun/25/2021 19:52"
+  },
   "CF120583217": {
     "contest_id": 1490,
     "language": "GNU C++17",
