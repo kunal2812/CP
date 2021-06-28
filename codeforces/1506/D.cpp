@@ -12,7 +12,9 @@ using namespace std;
 void Solution(){ 
     int n;
     cin >> n;
-    map<int, int> m;
+    unordered_map<int, int> m;
+    m.reserve(1024);
+    m.max_load_factor(0.25);
     int x;
     for(int i=0;i<n;i++){
         cin >> x;
