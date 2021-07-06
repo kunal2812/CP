@@ -1,4 +1,21 @@
 {
+  "CF121498708": {
+    "contest_id": 1457,
+    "language": "GNU C++17",
+    "path": "codeforces/1457/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Bouncing Ball",
+    "problem_url": "https://codeforces.com/contest/1457/problem/C",
+    "submission_id": "CF121498708",
+    "submission_url": "https://codeforces.com/contest/1457/submission/121498708",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Jul/06/2021 22:15"
+  },
   "CF121536712": {
     "contest_id": 1497,
     "language": "GNU C++17",
