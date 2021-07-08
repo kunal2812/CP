@@ -66,25 +66,25 @@ void Solution(){
     int n;
     cin >> n;
     usi m;
-    set<int> s1,s2;
+    set<int> s;
     for(int i=0;i<n;i++){
         cin >> a[i];
         b[i]= a[i];
-        s1.insert(i+1);
-        s2.insert(i+1);
+        s.insert(i+1);
     }
     for(int i=0;i<n;i++){
-        s1.erase(a[i]);
-        s2.erase(a[i]);
+        s.erase(a[i]);
     }
+    int curr = 1;
+    vi ind;
     for(int i=0;i<n;i++){
-        if(s1.empty()){
-            break;
-        }
         if(m.find(a[i])!=m.end()){
-            auto t = s1.begin();
-            a[i] = *t;
-            s1.erase(a[i]);
+            while(m.find(curr)!=m.end()){
+                curr++;
+            }
+            a[i] = curr;
+            ind.pb(i);
+            m.insert(curr);
         }
         m.insert(a[i]);
     }
@@ -93,14 +93,16 @@ void Solution(){
     }nl;
     m.clear();
     for(int i=0;i<n;i++){
-        if(s2.empty()){
+        if(s.empty()){
             break;
         }
         if(m.find(b[i])!=m.end()){
-            auto t = s2.upper_bound(b[i]);
+            auto t = s.upper_bound(b[i]);
             t--;
+            // cout << *t << endl;
             b[i] = *t;
-            s2.erase(b[i]);
+            s.erase(b[i]);
+            m.insert(curr);
         }
         m.insert(b[i]);
     }
@@ -119,4 +121,4 @@ int main() {
     }
     return 0;
 }
- 
+
