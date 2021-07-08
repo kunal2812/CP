@@ -33,7 +33,8 @@ typedef unordered_map<char, int> umci;
 typedef unordered_map<string, int> umsi;
 typedef unordered_map<int, int> umii;
 typedef unordered_map<int, vi> umiv;
-
+// m.reserve(1024);
+// m.max_load_factor(0.25);
 typedef unordered_set<int> usi;
 typedef unordered_set<ll> usll;
 typedef priority_queue<int> pqmax;
@@ -66,8 +67,6 @@ void Solution(){
     cin >> n;
     usi m;
     set<int> s1,s2;
-    m.reserve(1024);
-    m.max_load_factor(0.25);
     for(int i=0;i<n;i++){
         cin >> a[i];
         b[i]= a[i];
