@@ -61,7 +61,9 @@ struct custom_hash {
 void Solution(){ 
     int n;
     cin >> n;
-    unordered_map<int ,int, custom_hash> m;
+    umii m;
+m.reserve(1024);
+m.max_load_factor(0.25);
     for(int i=0;i<n;i++){
         int x; cin >> x;
         m[x]++;
