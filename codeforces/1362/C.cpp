@@ -61,17 +61,44 @@ struct custom_hash {
     }
 };
 
+ll a[70];
+ll pref[70];
+void init(){
+    a[0] = 1;
+    for(int i=1;i<=63;i++){
+        a[i] = pow(2,i);
+    }
+    pref[0] = 1;
+    for(int i=1;i<=63;i++){
+        pref[i] = pref[i-1] + a[i];
+    }
+}
+int logb2(ll kk){
+    int ct=0;
+    while(kk>1){
+        kk/=2;
+        ct++;
+    }
+    return ct;
+}
 void Solution(){ 
     ll n;
     cin >> n;
-    ll ans = 2*n;
-    int ct = __builtin_popcountll(n);
-    ans-=ct;
+    int t = logb2(n);
+    ll ans=0;
+    ans+=pref[t];
+    ll kk = n%a[t];
+    while(kk>0){
+        int t = logb2(kk);
+        ans+=pref[t];
+        kk = kk%a[t];
+    }
     cout << ans << endl;
 }
 
 int main() {
     fast;
+    init();
     int T;
     cin >> T;
     while(T!=0){
