@@ -54,8 +54,6 @@ void Solution(){
     umiv m;
     s.reserve(1024);
     s.max_load_factor(0.25);
-    m.reserve(1024);
-    m.max_load_factor(0.25);
     for(int i=0;i<n;i++){
         cin >> a[i];
         b[i] = a[i];
