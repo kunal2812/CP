@@ -1,109 +1,122 @@
+#pragma GCC optimize("Ofast")
+#pragma GCC optimize("O3")
+#pragma GCC target("popcnt")
 #include <bits/stdc++.h>
-using namespace std;
-const long double PI = 3.1415926536;
-typedef long long ll;
-typedef vector<ll> vli;
-typedef pair<ll, ll> pii;
-#define f first
-#define s second
-#define pb push_back
-#define mp make_pair
-#define rep(i, a, b) for (long long int i = a; i < b; i++)
-#define fill(a, b) memset(a, b, sizeof(a))
-#define mod 1000003
-#define this_is_my_fucking_code_u_r_seeing_my_hard_work_fuck_offff \
-    ios_base::sync_with_stdio(false);                              \
-    cin.tie(nullptr);                                              \
-    cout.tie(nullptr)
 
-void solve()
-{
-    ll n;
-    cin >> n;
-    int a[n];
-    int b[n];
-    for (int i = 0; i < n; i++)
-    {
+using namespace std;
+
+#define ull unsigned long long
+#define ll long long
+#define mp make_pair
+#define pb push_back
+#define fast ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+#define yes cout << "YES" << endl; return;
+#define no  cout << "NO" << endl; return;
+#define dc double
+#define ff first
+#define sc second
+#define endl '\n'
+#define nl cout << endl;
+
+#define sorta(v) sort(v.begin(), v.end())
+#define sortd(v) sort(v.begin(), v.end(), greater<int>())
+#define rev(s) reverse(s.begin(), s.end())
+
+typedef vector<int> vi;
+typedef vector<ll> vll;
+typedef map<int,int> mii;
+typedef map<char,int> mci;
+typedef map<string,int> msi;
+typedef pair<int, int> pii;
+typedef unordered_map<char, int> umci;
+typedef unordered_map<string, int> umsi;
+typedef unordered_map<int, int> umii;
+typedef unordered_map<int, vi> umiv;
+// m.reserve(1024);
+// m.max_load_factor(0.25);
+typedef unordered_set<int> usi;
+typedef unordered_set<ll> usll;
+typedef priority_queue<int> pqmax;
+typedef priority_queue<int, vector<int>, greater<int>> pqmin;
+
+#define ctset(n) __builtin_popcountll(n)
+#define ctunset(n) __builtin_ctzll(x)
+#define gtmax(a) *max_element(a.begin(), a.end())
+
+ll mod = 1000000007;
+
+struct custom_hash {
+    static uint64_t splitmix64(uint64_t x) {
+        // http://xorshift.di.unimi.it/splitmix64.c
+        x += 0x9e3779b97f4a7c15;
+        x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9;
+        x = (x ^ (x >> 27)) * 0x94d049bb133111eb;
+        return x ^ (x >> 31);
+    }
+
+    size_t operator()(uint64_t x) const {
+        static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
+        return splitmix64(x + FIXED_RANDOM);
+    }
+};
+
+
+void Solution(){ 
+    int n; cin >> n;
+    vi a(n), b(n); int ans=0;
+    ll s1=0, s2=0;
+    for(int i=0;i<n;i++){
         cin >> a[i];
     }
-    for (int i = 0; i < n; i++)
-    {
+    for(int i=0;i<n;i++){
         cin >> b[i];
     }
-    sort(a, a + n);
-    sort(b, b + n);
-    ll prefix_a[n];
-    ll prefix_b[n];
-    fill(prefix_b, 0);
-    fill(prefix_a, 0);
-    prefix_a[0] = a[0];
-    prefix_b[0] = b[0];
-    for (int i = 1; i < n; i++)
-    {
-        prefix_a[i] = a[i] + prefix_a[i - 1];
-        prefix_b[i] = b[i] + prefix_b[i - 1];
+    sorta(a);
+    sorta(b);
+    for(int i=1;i<n;i++){
+        a[i]+=a[i-1];
+        b[i]+=b[i-1];
     }
-    int sum_a = 0;
-    int sum_b = 0;
-    int minus = n / 4;
-    minus=minus-1;
-    sum_a = prefix_a[n - 1];
-    sum_b = prefix_b[n - 1];
-    if(minus>=0)
-    {
-        sum_a=sum_a-prefix_a[minus];
-        sum_b=sum_b-prefix_b[minus];
+    ll kk = a[n-1];
+    ll pp = b[n-1];
+    int k = (n/4);
+    int t = k-1;
+    if(t>=0){
+        kk-=a[t];
+        pp-=b[t];
     }
-    if (sum_a >= sum_b)
-    {
-        cout << "0\n";
-        return;
+    if(kk>=pp){
+        cout << 0 << endl; return;
     }
-    int k = n+1;
-    while(sum_a<sum_b)
-    {
-        sum_a = 0;
-        sum_b = 0;
-        sum_a = sum_a + (k-n)*100;
-        ll minus_new = 0;
-        minus_new = k / 4;
-        minus_new = minus_new - 1;
-        sum_a = sum_a + prefix_a[n - 1];
-        sum_b = sum_b + prefix_b[n - 1];
-        if (minus_new >= 0)
-        {
-            sum_a = sum_a - prefix_a[minus_new];
+    int d = n;
+    while(kk<pp){
+        ans++;
+        d++;
+        kk = a[n-1]+(ans*100);
+        pp = b[n-1];
+        int k = (d/4);
+        int t = k-1;
+        int j = k-ans-1;
+        if(j>=0){
+            pp-=b[j];
         }
-        ll minu = 0;
-        minu = minus_new - (k - n);
-        if (minu >= 0)
-        {
-            sum_b = sum_b - prefix_b[minu];
+        if(t>=0){
+            kk-=a[t];
         }
-       // cout << sum_a << "   " << sum_b << "   k=" << k << endl;
-        if (sum_a >= sum_b)
-        {
-            //    cout << sum_a << "   " << sum_b << endl;
-            cout << (k - n) << endl;
-            return;
-        }
-        k++;
+        // cout << kk << " " << pp << endl;
     }
-    return;
+    cout << ans << endl;
 }
 
-int main()
-{
-    //this_is_my_fucking_code_u_r_seeing_my_hard_work_fuck_offff;
-    //freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
-    int t;
-    cin >> t;
-    //scanf("%d", &t);
-    //t = 1;
-    while (t--)
-    {
-        solve();
+int main() {
+    fast;
+    int T;
+    cin >> T;
+    while(T!=0){
+        Solution();
+        T--;
     }
     return 0;
 }
+
