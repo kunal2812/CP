@@ -44,9 +44,6 @@ typedef priority_queue<int, vector<int>, greater<int>> pqmin;
 #define ctunset(n) __builtin_ctzll(x)
 #define gtmax(a) *max_element(a.begin(), a.end())
 
-#define printA(a) for(auto x:a){ cout << x << " "; }nl;
-// rotate(v.begin(), v.end()+k, v.end())
-
 ll mod = 1000000007;
 
 struct custom_hash {
@@ -63,13 +60,13 @@ struct custom_hash {
         return splitmix64(x + FIXED_RANDOM);
     }
 };
+
 struct item{
     int i; int val;
 };
 bool cmp(item x, item y){
     return x.val < y.val;
 }
-
 void Solution(){ 
     int n,m; cin >> n >> m;
     vector<vi> a(n, vi(m));
@@ -93,13 +90,13 @@ void Solution(){
     // }
     for(int i=0;i<n;i++){
         sorta(a[i]);
-        rotate(a[i].begin(), a[i].begin()+a[i].size()-t, a[i].end());
-        t+=mp[i];
-    }
-    for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
+        for(int j=m-t; j<m; j++){
+            cout << a[i][j] << " ";
+        }
+        for(int j=0; j<(m-t); j++){
             cout << a[i][j] << " ";
         }nl;
+        t+=mp[i];
     }
 }
 
