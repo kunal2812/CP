@@ -76,13 +76,13 @@ struct custom_hash {
 void Solution(){ 
     int n,k; cin >> n >> k;
     vi a(n), ans(n,0);
-    umiv m; m.reserve(1024); m.max_load_factor(0.25);
+    umiv m;
     for(int i=0;i<n;i++){
         cin >> a[i];
         m[a[i]].pb(i);
     }
     int t=1;
-    umii cnt; cnt.reserve(1024); cnt.max_load_factor(0.25);
+    umii cnt;
     for(auto x:m){
         for(int i=0;i<min((int)x.sc.size(), k);i++){
             cnt[t]++;
