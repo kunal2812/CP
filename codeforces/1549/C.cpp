@@ -75,6 +75,7 @@ struct custom_hash {
 
 void Solution(){ 
     int n,f; cin >> n >> f;
+    unordered_map<int, set<int>> m;
     vector<int> cnt(n+1,0);
     int ans = n;
     for(int i=0;i<f;i++){
@@ -82,6 +83,8 @@ void Solution(){
         if(x>y){
             swap(x,y);
         }
+        m[x].insert(y);
+        m[y].insert(x);
         cnt[x]++;
     }
     for(int i=1;i<=n;i++){
