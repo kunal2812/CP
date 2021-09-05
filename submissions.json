@@ -3239,6 +3239,23 @@
     ],
     "timestamp": "Jul/27/2021 23:53"
   },
+  "CF127990489": {
+    "contest_id": 1567,
+    "language": "GNU C++17",
+    "path": "codeforces/1567/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "MEXor Mixup",
+    "problem_url": "https://codeforces.com/contest/1567/problem/B",
+    "submission_id": "CF127990489",
+    "submission_url": "https://codeforces.com/contest/1567/submission/127990489",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Sep/06/2021 00:10"
+  },
   "CF128138140": {
     "contest_id": 515,
     "language": "GNU C++17",
