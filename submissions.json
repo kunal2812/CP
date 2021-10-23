@@ -3239,6 +3239,26 @@
     ],
     "timestamp": "Jul/27/2021 23:53"
   },
+  "CF132799874": {
+    "contest_id": 1586,
+    "language": "GNU C++17",
+    "path": "codeforces/1586/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Windblume Ode",
+    "problem_url": "https://codeforces.com/contest/1586/problem/A",
+    "submission_id": "CF132799874",
+    "submission_url": "https://codeforces.com/contest/1586/submission/132799874",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Oct/23/2021 21:38"
+  },
   "CF132799948": {
     "contest_id": 1586,
     "language": "GNU C++17",

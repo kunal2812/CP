@@ -97,9 +97,9 @@ void Solution(int xx){
                 continue;
             }
             else{
-                cout << j+1 << " ";
+                cout << j+1 << endl;
             }
-        }nl;
+        }
         return;
     }
     
