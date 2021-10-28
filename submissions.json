@@ -3239,6 +3239,24 @@
     ],
     "timestamp": "Jul/27/2021 23:53"
   },
+  "CF133338163": {
+    "contest_id": 88,
+    "language": "GNU C++17",
+    "path": "codeforces/88/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Trains",
+    "problem_url": "https://codeforces.com/contest/88/problem/C",
+    "submission_id": "CF133338163",
+    "submission_url": "https://codeforces.com/contest/88/submission/133338163",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Oct/28/2021 16:48"
+  },
   "CF133346716": {
     "contest_id": 1598,
     "language": "GNU C++17",
