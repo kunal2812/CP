@@ -3239,6 +3239,23 @@
     ],
     "timestamp": "Jul/27/2021 23:53"
   },
+  "CF134066996": {
+    "contest_id": 1607,
+    "language": "GNU C++17",
+    "path": "codeforces/1607/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Linear Keyboard",
+    "problem_url": "https://codeforces.com/contest/1607/problem/A",
+    "submission_id": "CF134066996",
+    "submission_url": "https://codeforces.com/contest/1607/submission/134066996",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Nov/02/2021 20:10"
+  },
   "CF134095460": {
     "contest_id": 1607,
     "language": "GNU C++17",
