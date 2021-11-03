@@ -3239,6 +3239,22 @@
     ],
     "timestamp": "Jul/27/2021 23:53"
   },
+  "CF134211409": {
+    "contest_id": 227,
+    "language": "GNU C++17",
+    "path": "codeforces/227/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Flying Saucer Segments",
+    "problem_url": "https://codeforces.com/contest/227/problem/C",
+    "submission_id": "CF134211409",
+    "submission_url": "https://codeforces.com/contest/227/submission/134211409",
+    "tags": [
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Nov/03/2021 16:51"
+  },
   "CF134249712": {
     "contest_id": 580,
     "language": "GNU C++17",
