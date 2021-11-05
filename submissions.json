@@ -3239,6 +3239,22 @@
     ],
     "timestamp": "Jul/27/2021 23:53"
   },
+  "CF134432172": {
+    "contest_id": 219,
+    "language": "GNU C++17",
+    "path": "codeforces/219/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Special Offer! Super Price 999 Bourles!",
+    "problem_url": "https://codeforces.com/contest/219/problem/B",
+    "submission_id": "CF134432172",
+    "submission_url": "https://codeforces.com/contest/219/submission/134432172",
+    "tags": [
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Nov/06/2021 00:25"
+  },
   "CF135101035": {
     "contest_id": 1604,
     "language": "GNU C++17",
