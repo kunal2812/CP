@@ -1,4 +1,20 @@
 {
+  "AC27813715": {
+    "contest_id": "abc231",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc231/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Water Pressure",
+    "problem_url": "https://atcoder.jp/contests/abc231/tasks/abc231_a",
+    "submission_id": "AC27813715",
+    "submission_url": "https://atcoder.jp/contests/abc231/submissions/27813715",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Dec/11/2021 17:30"
+  },
   "AC27818151": {
     "contest_id": "abc231",
     "language": "C++ (GCC 9.2.1)",
