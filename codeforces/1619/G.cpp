@@ -123,15 +123,11 @@ void Solution(int xx){
     // for(auto x:timer){
     //     cout << x << " ";
     // }nl;
-    int i = 0, j = timer.size()-1, ans = 0;
-    while(i<=j){
-        while(timer[i]==ans){
-            i++;
-        }
-        j--;
-        ans++;
+    int ans = timer.size() - 1;
+    for (int i = 0; i < timer.size(); ++i) {
+        ans = min(ans, max((int)timer.size() - i - 2, timer[i]));
     }
-    pr(max(0,ans-1));
+    cout << ans << '\n';
 }
 
 int main() {
