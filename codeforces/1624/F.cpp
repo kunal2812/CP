@@ -62,25 +62,57 @@ int dy[4] = {0, 1, 0, -1};
 pii inter(int l1, int r1, int l2, int r2){
     return {max(l1, l2), min(r1, r2)};
 }
+// int ans;
+
+// int query(int add, int n){
+//         ans+=add;
+//         return (ans/n);
+// }
 
 void solve(int xx){ 
     int n; cin >> n;
     int c = 1, add, d; pii np;
     int l = 1, r = n-1, m;
-    while(l!=r){
+    while(l<=r){
+        // cout << l << " " << r << endl;
         m = (l+r+1)/2;
+        if((r-l)<=1){
+            break;
+        }
         add = n*c-m; c++; add%=n;
         cout << "+ " << add << endl;
         cin >> d;
+        // d = query(add, n);
+        // cout << d << endl;
         np = inter(d*n, (d+1)*n-1, l+add, r+add);
         l = np.ff; r = np.sc;
+        if(c>15){
+            break;
+        }
     }
-    cout << "! " << l << endl;
+    if(l==r){
+        cout << "! " << m << endl;
+    }
+    else{
+        int t = ceil((dc)r/n);
+        int add = n*t-r; add%=n;
+        cout << "+ " << add << endl;
+        cin >> d;
+        // d = query(add, n);
+        // cout << d << endl;
+        if(d==t){
+            cout << "! " << n*t << endl;
+        }
+        else{
+            cout << "! " << n*t-1 << endl;
+        }
+    }
 }
 
 int main() {
     fast;
     int t, i=0;
+    // cin >> ans;
     solve(++i);
     return 0;
 }
