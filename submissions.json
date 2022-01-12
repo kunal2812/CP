@@ -1,4 +1,22 @@
 {
+  "CF142466594": {
+    "contest_id": 1624,
+    "language": "GNU C++17",
+    "path": "codeforces/1624/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Interacdive Problem",
+    "problem_url": "https://codeforces.com/contest/1624/problem/F",
+    "submission_id": "CF142466594",
+    "submission_url": "https://codeforces.com/contest/1624/submission/142466594",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "interactive",
+      "*2000"
+    ],
+    "timestamp": "Jan/12/2022 17:10"
+  },
   "CF142473839": {
     "contest_id": 1625,
     "language": "GNU C++17",
