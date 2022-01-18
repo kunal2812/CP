@@ -52,29 +52,42 @@ ll mod = 1000000007;
 int dx[4] = {-1, 0, 1, 0};
 int dy[4] = {0, 1, 0, -1};
 // Pasing string by value adds O(n) factor
-int good(string &s, int l, int r, char c){
+int good(string &s, int l, int r, char c, vector<map<char, int>> &freq){
     if(l==r){
         return (s[l]==c)?0:1;
     }
     int m = l+r+1; m/=2; int cnt1=0, cnt2=0;
-    fr(i,l,m,1){
-        if(s[i]!=c){
-            cnt1++;
+    for(auto x:freq[m-1]){
+        // cout << x.ff << " " << x.sc << endl;
+        if(l!=0){
+            if(x.ff!=c){
+                cnt1+=(x.sc-freq[l-1][x.ff]);
+            }
+        }
+        else{
+            if(x.ff!=c){
+                cnt1+=x.sc;
+            }
         }
     }
-    fr(i,m,r+1,1){
-        if(s[i]!=c){
-            cnt2++;
+    for(auto x:freq[r]){
+        if(x.ff!=c){
+            cnt2+=(x.sc-freq[m-1][x.ff]);
         }
     }
-    return min(cnt1+good(s,m, r,c+1), cnt2+good(s,l,m-1,c+1));
+    return min(cnt1+good(s,m, r,c+1,freq), cnt2+good(s,l,m-1,c+1,freq));
 }
 
 void solve(int xx){ 
     int n; cin >> n;
     string s; cin >> s;
     int l = 0, r = n-1;
-    int ans = good(s,l,r, 'a');
+    vector<map<char, int>> freq; map<char, int> m;
+    fr(i,0,n,1){
+        m[s[i]]++;
+        freq.pb(m);
+    }
+    int ans = good(s,l,r, 'a', freq);
     pr(ans);
 }
 
