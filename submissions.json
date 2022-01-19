@@ -4484,6 +4484,28 @@
     ],
     "timestamp": "Jan/18/2022 17:41"
   },
+  "CF143340116": {
+    "contest_id": 1487,
+    "language": "GNU C++17",
+    "path": "codeforces/1487/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Minimum Ties",
+    "problem_url": "https://codeforces.com/contest/1487/problem/C",
+    "submission_id": "CF143340116",
+    "submission_url": "https://codeforces.com/contest/1487/submission/143340116",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jan/19/2022 20:26"
+  },
   "CF143343906": {
     "contest_id": 1481,
     "language": "GNU C++17",
