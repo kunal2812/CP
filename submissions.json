@@ -3601,6 +3601,24 @@
     ],
     "timestamp": "Jan/18/2022 17:41"
   },
+  "CF143910996": {
+    "contest_id": 1157,
+    "language": "GNU C++17",
+    "path": "codeforces/1157/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Minimum Array",
+    "problem_url": "https://codeforces.com/contest/1157/problem/E",
+    "submission_id": "CF143910996",
+    "submission_url": "https://codeforces.com/contest/1157/submission/143910996",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Jan/25/2022 01:05"
+  },
   "CF143970793": {
     "contest_id": 47,
     "language": "GNU C++17",
