@@ -60,23 +60,68 @@ abc dfdce cba
 */
 
 string midstr(string &k){
-    string t = k;
-    rev(t);
-    string p = k+'$'+t;
-    int n = sz(p);
-    vi pi(n,0);
-    int j = 0;
-    fr(i,1,n,1){
-        j = pi[i-1];
-        while(j>0 && p[i]!=p[j]){
-            j = pi[j-1];
+    string t = "";
+    for(char c:k){
+        t+='#'; t+=c;
+    } t+='#';
+    int l = 0, r = -1, n = t.size();
+    t = '$'+t+'@';
+    vi p(n+2);
+    for(int i=1; i<=n; i++){
+        p[i] = max(0, min(r-i, p[r+l-i]));
+        while(t[i+p[i]]==t[i-p[i]]){
+            p[i]++;
         }
-        if(p[i]==p[j]){
-            j++;
+        if((i+p[i])>r){
+            l = i-p[i]; r = i+p[i];
         }
-        pi[i] = j;
     }
-    return p.substr(0,j);
+    l = 1; int ind1 = -1;
+    for(int i=1; i<=n; i++){
+        if(p[i]==l){
+            ind1 = i;
+        }
+        l++;
+    }
+    l = 1; int ind2 = -1;
+    for(int i=n; i>=1; i--){
+        if(p[i]==l){
+            ind2 = i;
+        }
+        l++;
+    }
+    // cout << t << endl;
+    // for(int i=1; i<=n; i++){
+    //     cout << p[i] << " ";
+    // }nl;
+    string m1 = "", ans = "";
+    int j;
+    if(p[ind1]>p[ind2]){
+        j = ind1;
+    }
+    else{
+        j = ind2;
+    }
+    int tc = p[j];
+    bool even = false;
+    if(t[j]=='#'){
+        even = true;
+    }
+    while(tc--){
+        if(t[j]!='#'){
+            ans+=t[j];
+        }
+        j++;
+    }
+    for(int i=ans.size()-1; i>=0; i--){
+        m1+=ans[i];
+    }
+    int i=0;
+    if(!even)i++;
+    for(i; i<ans.size(); i++){
+        m1+=ans[i];
+    }
+    return m1;
 }
 
 void solve(int xx){ 
@@ -93,18 +138,7 @@ void solve(int xx){
     string ans = t;
     rev(t); 
     string k = s.substr(i,j-i+1);
-    string mid = "";
-    if(k!=""){
-        string mid1 = midstr(k);
-        rev(k);
-        string mid2 = midstr(k);
-        if(sz(mid1)>sz(mid2)){
-            mid = mid1;
-        }
-        else{
-            mid = mid2;
-        }
-    }
+    string mid = midstr(k);
     ans+=mid; ans+=t;
     pr(ans);
 }
