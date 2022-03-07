@@ -3601,6 +3601,25 @@
     ],
     "timestamp": "Jan/18/2022 17:41"
   },
+  "CF148669410": {
+    "contest_id": 242,
+    "language": "GNU C++17",
+    "path": "codeforces/242/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "King's Path",
+    "problem_url": "https://codeforces.com/contest/242/problem/C",
+    "submission_id": "CF148669410",
+    "submission_url": "https://codeforces.com/contest/242/submission/148669410",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "hashing",
+      "shortest paths",
+      "*1800"
+    ],
+    "timestamp": "Mar/07/2022 12:33"
+  },
   "CF148679864": {
     "contest_id": 1006,
     "language": "GNU C++17",
