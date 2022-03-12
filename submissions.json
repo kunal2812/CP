@@ -3601,6 +3601,25 @@
     ],
     "timestamp": "Jan/18/2022 17:41"
   },
+  "CF149451502": {
+    "contest_id": 1650,
+    "language": "GNU C++17",
+    "path": "codeforces/1650/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Weight of the System of Nested Segments",
+    "problem_url": "https://codeforces.com/contest/1650/problem/C",
+    "submission_id": "CF149451502",
+    "submission_url": "https://codeforces.com/contest/1650/submission/149451502",
+    "tags": [
+      "greedy",
+      "hashing",
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Mar/12/2022 23:06"
+  },
   "CF149505780": {
     "contest_id": 1635,
     "language": "GNU C++17",
