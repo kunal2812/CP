@@ -3601,6 +3601,25 @@
     ],
     "timestamp": "Jan/18/2022 17:41"
   },
+  "CF149444341": {
+    "contest_id": 1650,
+    "language": "GNU C++17",
+    "path": "codeforces/1650/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Twist the Permutation",
+    "problem_url": "https://codeforces.com/contest/1650/problem/D",
+    "submission_id": "CF149444341",
+    "submission_url": "https://codeforces.com/contest/1650/submission/149444341",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/12/2022 21:51"
+  },
   "CF149445520": {
     "contest_id": 1641,
     "language": "GNU C++17",
