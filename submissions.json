@@ -3601,6 +3601,24 @@
     ],
     "timestamp": "Jan/18/2022 17:41"
   },
+  "CF149445520": {
+    "contest_id": 1641,
+    "language": "GNU C++17",
+    "path": "codeforces/1641/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Great Sequence",
+    "problem_url": "https://codeforces.com/contest/1641/problem/A",
+    "submission_id": "CF149445520",
+    "submission_url": "https://codeforces.com/contest/1641/submission/149445520",
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Mar/12/2022 22:05"
+  },
   "CF149451502": {
     "contest_id": 1650,
     "language": "GNU C++17",
