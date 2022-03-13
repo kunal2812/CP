@@ -3601,6 +3601,22 @@
     ],
     "timestamp": "Jan/18/2022 17:41"
   },
+  "CF149522201": {
+    "contest_id": 1619,
+    "language": "GNU C++17",
+    "path": "codeforces/1619/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Wrong Addition",
+    "problem_url": "https://codeforces.com/contest/1619/problem/C",
+    "submission_id": "CF149522201",
+    "submission_url": "https://codeforces.com/contest/1619/submission/149522201",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/13/2022 17:59"
+  },
   "CF149551943": {
     "contest_id": 1617,
     "language": "GNU C++17",
