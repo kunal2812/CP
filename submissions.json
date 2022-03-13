@@ -3601,6 +3601,24 @@
     ],
     "timestamp": "Jan/18/2022 17:41"
   },
+  "CF149555080": {
+    "contest_id": 1615,
+    "language": "GNU C++17",
+    "path": "codeforces/1615/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "And It's Non-Zero",
+    "problem_url": "https://codeforces.com/contest/1615/problem/B",
+    "submission_id": "CF149555080",
+    "submission_url": "https://codeforces.com/contest/1615/submission/149555080",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/14/2022 00:06"
+  },
   "CF149559450": {
     "contest_id": 1612,
     "language": "GNU C++17",
