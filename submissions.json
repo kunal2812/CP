@@ -3601,6 +3601,25 @@
     ],
     "timestamp": "Jan/18/2022 17:41"
   },
+  "CF150628392": {
+    "contest_id": 1647,
+    "language": "GNU C++17",
+    "path": "codeforces/1647/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Madoka and the Elegant Gift",
+    "problem_url": "https://codeforces.com/contest/1647/problem/B",
+    "submission_id": "CF150628392",
+    "submission_url": "https://codeforces.com/contest/1647/submission/150628392",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/23/2022 21:23"
+  },
   "CF150633295": {
     "contest_id": 1592,
     "language": "GNU C++17",
