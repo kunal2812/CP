@@ -1,4 +1,22 @@
 {
+  "CF151035360": {
+    "contest_id": 1547,
+    "language": "GNU C++17",
+    "path": "codeforces/1547/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Co-growing Sequence",
+    "problem_url": "https://codeforces.com/contest/1547/problem/D",
+    "submission_id": "CF151035360",
+    "submission_url": "https://codeforces.com/contest/1547/submission/151035360",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Mar/27/2022 00:44"
+  },
   "CF151081080": {
     "contest_id": 1647,
     "language": "GNU C++17",
