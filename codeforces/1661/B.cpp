@@ -49,25 +49,34 @@ ll mod = 1000000007;
 /*
 
 */
-void solve(int xx){ 
-    ll n; cin >> n;
-    int ans = INT_MAX;
-    fr(i,0,16,1){
-        fr(j,0,16,1){
-            ll kk = n+i; kk*=pow(2,j);
-            if(kk%32768==0){
-            ans = min(ans, i+j);
-            }
-        }
-    }
-    pr(ans);
-}
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    vi ans(32768,-1);
+    queue<int> q; q.push(0); ans[0] = 0;
+    while(!q.empty()){
+        int pp = q.front(); q.pop();
+        if((pp&1)==0){
+            if(ans[((pp+32768)/2)%32768]==-1){
+                q.push(((pp+32768)/2)%32768);
+                ans[((pp+32768)/2)%32768] = ans[pp]+1;
+            }
+            if(ans[pp/2]==-1){
+                q.push(pp/2);
+                ans[pp/2] = ans[pp]+1;
+            }
+        }
+        if(ans[(pp+32768-1)%32768]==-1){
+            q.push((pp+32768-1)%32768);
+            ans[(pp+32768-1)%32768] = ans[pp]+1;
+        }
+    }
     int t, i=0; 
     cin >> t;
-    while(t--)  
-        solve(++i);
+    while(t--){
+        ll n; cin >> n;
+        cout << ans[n] << " ";
+    }
+    nl;
     return 0;
 }
