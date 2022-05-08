@@ -1,4 +1,20 @@
 {
+  "AC31534300": {
+    "contest_id": "abc250",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc250/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Adjacent Swaps",
+    "problem_url": "https://atcoder.jp/contests/abc250/tasks/abc250_c",
+    "submission_id": "AC31534300",
+    "submission_url": "https://atcoder.jp/contests/abc250/submissions/31534300",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/08/2022 18:17"
+  },
   "AC31551807": {
     "contest_id": "abc250",
     "language": "C++ (GCC 9.2.1)",
