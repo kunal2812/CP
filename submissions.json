@@ -1,4 +1,20 @@
 {
+  "AC31551807": {
+    "contest_id": "abc250",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc250/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "250-like Number",
+    "problem_url": "https://atcoder.jp/contests/abc250/tasks/abc250_d",
+    "submission_id": "AC31551807",
+    "submission_url": "https://atcoder.jp/contests/abc250/submissions/31551807",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/08/2022 19:41"
+  },
   "AC31654241": {
     "contest_id": "abc251",
     "language": "C++ (GCC 9.2.1)",
