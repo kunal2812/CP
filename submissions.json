@@ -1,4 +1,20 @@
 {
+  "CF157033037": {
+    "contest_id": 1680,
+    "language": "GNU C++17",
+    "path": "codeforces/1680/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Robots",
+    "problem_url": "https://codeforces.com/contest/1680/problem/B",
+    "submission_id": "CF157033037",
+    "submission_url": "https://codeforces.com/contest/1680/submission/157033037",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/13/2022 20:22"
+  },
   "CF157173178": {
     "contest_id": 1679,
     "language": "GNU C++17",
