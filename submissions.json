@@ -1,4 +1,20 @@
 {
+  "AC31662143": {
+    "contest_id": "abc251",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc251/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "At Most 3 (Judge ver.)",
+    "problem_url": "https://atcoder.jp/contests/abc251/tasks/abc251_b",
+    "submission_id": "AC31662143",
+    "submission_url": "https://atcoder.jp/contests/abc251/submissions/31662143",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/14/2022 17:38"
+  },
   "AC31667369": {
     "contest_id": "abc251",
     "language": "C++ (GCC 9.2.1)",
