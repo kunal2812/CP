@@ -1,4 +1,20 @@
 {
+  "AC31850164": {
+    "contest_id": "abc252",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc252/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Slot Strategy",
+    "problem_url": "https://atcoder.jp/contests/abc252/tasks/abc252_c",
+    "submission_id": "AC31850164",
+    "submission_url": "https://atcoder.jp/contests/abc252/submissions/31850164",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/21/2022 17:49"
+  },
   "CF104525301": {
     "contest_id": 1462,
     "language": "GNU C++14",
