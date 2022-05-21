@@ -1,4 +1,20 @@
 {
+  "AC31840154": {
+    "contest_id": "abc252",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc252/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Takahashi's Failure",
+    "problem_url": "https://atcoder.jp/contests/abc252/tasks/abc252_b",
+    "submission_id": "AC31840154",
+    "submission_url": "https://atcoder.jp/contests/abc252/submissions/31840154",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/21/2022 17:35"
+  },
   "AC31850164": {
     "contest_id": "abc252",
     "language": "C++ (GCC 9.2.1)",
