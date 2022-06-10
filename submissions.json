@@ -1,0 +1,21 @@
+{
+  "CF160146225": {
+    "contest_id": 1689,
+    "language": "GNU C++17",
+    "path": "codeforces/1689/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lex String",
+    "problem_url": "https://codeforces.com/contest/1689/problem/A",
+    "submission_id": "CF160146225",
+    "submission_url": "https://codeforces.com/contest/1689/submission/160146225",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "sortings",
+      "two pointers"
+    ],
+    "timestamp": "Jun/11/2022 02:22"
+  }
+}
