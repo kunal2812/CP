@@ -9004,6 +9004,22 @@
     ],
     "timestamp": "Jun/14/2022 21:23"
   },
+  "CF161050219": {
+    "contest_id": 1695,
+    "language": "GNU C++17",
+    "path": "codeforces/1695/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Subrectangle Guess",
+    "problem_url": "https://codeforces.com/contest/1695/problem/A",
+    "submission_id": "CF161050219",
+    "submission_url": "https://codeforces.com/contest/1695/submission/161050219",
+    "tags": [
+      "games",
+      "*800"
+    ],
+    "timestamp": "Jun/18/2022 20:13"
+  },
   "CF162183217": {
     "contest_id": 1698,
     "language": "GNU C++17",
