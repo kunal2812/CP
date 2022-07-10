@@ -9004,6 +9004,22 @@
     ],
     "timestamp": "Jun/14/2022 21:23"
   },
+  "CF163468915": {
+    "contest_id": 1702,
+    "language": "GNU C++17",
+    "path": "codeforces/1702/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Round Down the Price",
+    "problem_url": "https://codeforces.com/contest/1702/problem/A",
+    "submission_id": "CF163468915",
+    "submission_url": "https://codeforces.com/contest/1702/submission/163468915",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Jul/10/2022 20:07"
+  },
   "CF163477233": {
     "contest_id": 1702,
     "language": "GNU C++17",
