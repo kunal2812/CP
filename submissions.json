@@ -9004,6 +9004,24 @@
     ],
     "timestamp": "Jun/14/2022 21:23"
   },
+  "CF163806974": {
+    "contest_id": 1703,
+    "language": "GNU C++17",
+    "path": "codeforces/1703/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "YES or YES?",
+    "problem_url": "https://codeforces.com/contest/1703/problem/A",
+    "submission_id": "CF163806974",
+    "submission_url": "https://codeforces.com/contest/1703/submission/163806974",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jul/12/2022 20:07"
+  },
   "CF163810910": {
     "contest_id": 1703,
     "language": "GNU C++17",
