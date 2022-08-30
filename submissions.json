@@ -9004,6 +9004,23 @@
     ],
     "timestamp": "Jun/14/2022 21:23"
   },
+  "CF170292195": {
+    "contest_id": 1722,
+    "language": "GNU C++17",
+    "path": "codeforces/1722/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "L-shapes",
+    "problem_url": "https://codeforces.com/contest/1722/problem/F",
+    "submission_id": "CF170292195",
+    "submission_url": "https://codeforces.com/contest/1722/submission/170292195",
+    "tags": [
+      "dfs and similar",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Aug/30/2022 22:21"
+  },
   "CF172167679": {
     "contest_id": 1729,
     "language": "GNU C++17",
