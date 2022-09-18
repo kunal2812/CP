@@ -479,6 +479,22 @@
     ],
     "timestamp": "May/21/2022 17:49"
   },
+  "AC34975429": {
+    "contest_id": "abc269",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc269/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Last Rook",
+    "problem_url": "https://atcoder.jp/contests/abc269/tasks/abc269_e",
+    "submission_id": "AC34975429",
+    "submission_url": "https://atcoder.jp/contests/abc269/submissions/34975429",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Sep/18/2022 17:27"
+  },
   "AC35054263": {
     "contest_id": "abc137",
     "language": "C++ (GCC 9.2.1)",
