@@ -59,6 +59,7 @@ ll mod = 1000000007;
 void solve(int xx){ 
     int n; ll x,y; cin >> n >> x >> y;
     string s1,s2; cin >> s1 >> s2;
+    ll ans = 0;
     ll pp = 0;
     int cnt = 0;
     vi chunks;
@@ -80,12 +81,49 @@ void solve(int xx){
     if(cnt!=0){
         chunks.pb(cnt);
     }
-    if(pp==2 && chunks[0]==2){
-        pr(min(x,2*y));
+    bool yep = false;
+    fr(i,0,sz(chunks),1){
+        // cout << chunks[i] << " ";
+        if(chunks[i]>2){
+            yep = true;
+            ans+=((chunks[i]/2)*y);
+            chunks[i]%=2;
+        }
     }
-    else{
-        pr((pp/2) * y);
+    // nl;
+    int cnt1 = 0, cnt2 = 0;
+    for(auto x:chunks){
+        if(x==1){
+            cnt1++;
+        }
+        else if(x==2){
+            cnt2++;
+        }
     }
+    if(cnt2>1){
+        ans+=cnt2*y;
+        ans+=(cnt1/2)*y;
+        cnt2 = 0;
+    }
+    else if(cnt2==0){
+        ans+=(cnt1/2)*y;
+    }
+    else if(cnt2==1){
+        if(cnt1>=2){
+            ans+=(2*y);
+            cnt1-=2;
+            ans+=(cnt1/2)*y;
+        }
+        else{
+            if(yep){
+                ans+=y;
+            }
+            else{
+                ans+=min(x,2*y);
+            }
+        }
+    }
+    pr(ans);
 }
 
 int main() {
