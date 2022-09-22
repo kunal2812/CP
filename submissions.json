@@ -9004,6 +9004,26 @@
     ],
     "timestamp": "Jun/14/2022 21:23"
   },
+  "CF173082729": {
+    "contest_id": 1714,
+    "language": "GNU C++17",
+    "path": "codeforces/1714/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Color with Occurrences",
+    "problem_url": "https://codeforces.com/contest/1714/problem/D",
+    "submission_id": "CF173082729",
+    "submission_url": "https://codeforces.com/contest/1714/submission/173082729",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Sep/22/2022 21:15"
+  },
   "CF173245738": {
     "contest_id": 1734,
     "language": "GNU C++17",
