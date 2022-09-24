@@ -479,6 +479,22 @@
     ],
     "timestamp": "May/21/2022 17:49"
   },
+  "AC35146949": {
+    "contest_id": "abc270",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc270/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Simple path",
+    "problem_url": "https://atcoder.jp/contests/abc270/tasks/abc270_c",
+    "submission_id": "AC35146949",
+    "submission_url": "https://atcoder.jp/contests/abc270/submissions/35146949",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Sep/25/2022 00:09"
+  },
   "AC35201727": {
     "contest_id": "abc270",
     "language": "C++ (GCC 9.2.1)",
