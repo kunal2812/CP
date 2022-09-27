@@ -479,6 +479,22 @@
     ],
     "timestamp": "May/21/2022 17:49"
   },
+  "AC35201727": {
+    "contest_id": "abc270",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc270/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Stones",
+    "problem_url": "https://atcoder.jp/contests/abc270/tasks/abc270_d",
+    "submission_id": "AC35201727",
+    "submission_url": "https://atcoder.jp/contests/abc270/submissions/35201727",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Sep/27/2022 19:51"
+  },
   "AC35275016": {
     "contest_id": "abc271",
     "language": "C++ (GCC 9.2.1)",
