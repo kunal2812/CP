@@ -9004,6 +9004,24 @@
     ],
     "timestamp": "Jun/14/2022 21:23"
   },
+  "CF173944427": {
+    "contest_id": 1739,
+    "language": "GNU C++17",
+    "path": "codeforces/1739/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Array Recovery",
+    "problem_url": "https://codeforces.com/contest/1739/problem/B",
+    "submission_id": "CF173944427",
+    "submission_url": "https://codeforces.com/contest/1739/submission/173944427",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Sep/29/2022 20:15"
+  },
   "CF174084759": {
     "contest_id": 339,
     "language": "GNU C++17",
