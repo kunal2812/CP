@@ -479,6 +479,22 @@
     ],
     "timestamp": "May/21/2022 17:49"
   },
+  "AC35277606": {
+    "contest_id": "abc271",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc271/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Maintain Multiple Sequences",
+    "problem_url": "https://atcoder.jp/contests/abc271/tasks/abc271_b",
+    "submission_id": "AC35277606",
+    "submission_url": "https://atcoder.jp/contests/abc271/submissions/35277606",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Oct/01/2022 17:37"
+  },
   "AC35294141": {
     "contest_id": "abc271",
     "language": "C++ (GCC 9.2.1)",
