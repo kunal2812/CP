@@ -719,6 +719,22 @@
     ],
     "timestamp": "Oct/01/2022 20:23"
   },
+  "AC36144807": {
+    "contest_id": "abc275",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc275/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Yet Another Recursive Function",
+    "problem_url": "https://atcoder.jp/contests/abc275/tasks/abc275_d",
+    "submission_id": "AC36144807",
+    "submission_url": "https://atcoder.jp/contests/abc275/submissions/36144807",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Nov/02/2022 00:30"
+  },
   "CF104525301": {
     "contest_id": 1462,
     "language": "GNU C++14",
