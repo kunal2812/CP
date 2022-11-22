@@ -10089,6 +10089,24 @@
     ],
     "timestamp": "Oct/13/2022 21:34"
   },
+  "CF182107448": {
+    "contest_id": 1759,
+    "language": "GNU C++17",
+    "path": "codeforces/1759/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "The Humanoid",
+    "problem_url": "https://codeforces.com/contest/1759/problem/E",
+    "submission_id": "CF182107448",
+    "submission_url": "https://codeforces.com/contest/1759/submission/182107448",
+    "tags": [
+      "brute force",
+      "dp",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Nov/22/2022 14:58"
+  },
   "CF182109405": {
     "contest_id": 1759,
     "language": "GNU C++17",
