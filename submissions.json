@@ -10089,6 +10089,23 @@
     ],
     "timestamp": "Oct/13/2022 21:34"
   },
+  "CF182109405": {
+    "contest_id": 1759,
+    "language": "GNU C++17",
+    "path": "codeforces/1759/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Make It Round",
+    "problem_url": "https://codeforces.com/contest/1759/problem/D",
+    "submission_id": "CF182109405",
+    "submission_url": "https://codeforces.com/contest/1759/submission/182109405",
+    "tags": [
+      "brute force",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Nov/22/2022 15:21"
+  },
   "CF182249573": {
     "contest_id": 1748,
     "language": "GNU C++17",
