@@ -73,12 +73,13 @@ bool isPossible(ll k, vi &a, ll c, ll d){
     if(k<n){
         n = k+1;
     }
+    mii last;
     fr(i,0,d,1){
-        if(cc<n){
-            s+=a[cc];
+        if(last.find(cc)==last.end() || (i-last[cc])>k){
+            last[cc] = i;
+            s+=a[cc++];
         }
-        cc++;
-        if(cc==(k+1)){
+        if(cc==n){
             cc = 0;
         }
     }
