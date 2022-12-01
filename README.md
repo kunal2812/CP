@@ -13,16 +13,17 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-560 | [C - Vasya and String](https://codeforces.com/contest/676/problem/C) | [GNU C++17](./codeforces/676/C.cpp) | `binary search` `dp` `strings` `two pointers` `*1500` | Dec/05/2022 11:35 | 
-559 | [B - Kefa and Company](https://codeforces.com/contest/580/problem/B) | [GNU C++17](./codeforces/580/B.cpp) | `binary search` `sortings` `two pointers` `*1500` | Dec/04/2022 15:50 | 
-558 | [D - A-B-C Sort](https://codeforces.com/contest/1674/problem/D) | [GNU C++17](./codeforces/1674/D.cpp) | `constructive algorithms` `implementation` `sortings` `*1200` | Dec/04/2022 15:07 | 
-557 | [E - Sleeping Schedule](https://codeforces.com/contest/1324/problem/E) | [GNU C++17](./codeforces/1324/E.cpp) | `dp` `implementation` `*1700` | Dec/04/2022 10:51 | 
-556 | [D - Vasiliy's Multiset](https://codeforces.com/contest/706/problem/D) | [GNU C++17](./codeforces/706/D.cpp) | `binary search` `bitmasks` `data structures` `trees` `*1800` | Dec/03/2022 22:40 | 
-555 | [C - Hard problem](https://codeforces.com/contest/706/problem/C) | [GNU C++17](./codeforces/706/C.cpp) | `dp` `strings` `*1600` | Dec/03/2022 16:13 | 
-554 | [D - Substring](https://codeforces.com/contest/919/problem/D) | [GNU C++17](./codeforces/919/D.cpp) | `dfs and similar` `dp` `graphs` `*1700` | Dec/03/2022 11:57 | 
-553 | [C - Bakry and Partitioning](https://codeforces.com/contest/1592/problem/C) | [GNU C++17](./codeforces/1592/C.cpp) | `bitmasks` `constructive algorithms` `dfs and similar` `dp` `graphs` `trees` `*1700` | Dec/03/2022 09:38 | 
-552 | [D - Eternal Victory](https://codeforces.com/contest/61/problem/D) | [GNU C++17](./codeforces/61/D.cpp) | `dfs and similar` `graphs` `greedy` `shortest paths` `trees` `*1800` | Dec/02/2022 21:46 | 
-551 | [D2 - Magic Powder - 2](https://codeforces.com/contest/670/problem/D2) | [GNU C++17](./codeforces/670/D2.cpp) | `binary search` `implementation` `*1500` | Dec/02/2022 04:56 | 
+561 | [C - Vasya and String](https://codeforces.com/contest/676/problem/C) | [GNU C++17](./codeforces/676/C.cpp) | `binary search` `dp` `strings` `two pointers` `*1500` | Dec/05/2022 11:35 | 
+560 | [B - Kefa and Company](https://codeforces.com/contest/580/problem/B) | [GNU C++17](./codeforces/580/B.cpp) | `binary search` `sortings` `two pointers` `*1500` | Dec/04/2022 15:50 | 
+559 | [D - A-B-C Sort](https://codeforces.com/contest/1674/problem/D) | [GNU C++17](./codeforces/1674/D.cpp) | `constructive algorithms` `implementation` `sortings` `*1200` | Dec/04/2022 15:07 | 
+558 | [E - Sleeping Schedule](https://codeforces.com/contest/1324/problem/E) | [GNU C++17](./codeforces/1324/E.cpp) | `dp` `implementation` `*1700` | Dec/04/2022 10:51 | 
+557 | [D - Vasiliy's Multiset](https://codeforces.com/contest/706/problem/D) | [GNU C++17](./codeforces/706/D.cpp) | `binary search` `bitmasks` `data structures` `trees` `*1800` | Dec/03/2022 22:40 | 
+556 | [C - Hard problem](https://codeforces.com/contest/706/problem/C) | [GNU C++17](./codeforces/706/C.cpp) | `dp` `strings` `*1600` | Dec/03/2022 16:13 | 
+555 | [D - Substring](https://codeforces.com/contest/919/problem/D) | [GNU C++17](./codeforces/919/D.cpp) | `dfs and similar` `dp` `graphs` `*1700` | Dec/03/2022 11:57 | 
+554 | [C - Bakry and Partitioning](https://codeforces.com/contest/1592/problem/C) | [GNU C++17](./codeforces/1592/C.cpp) | `bitmasks` `constructive algorithms` `dfs and similar` `dp` `graphs` `trees` `*1700` | Dec/03/2022 09:38 | 
+553 | [D - Eternal Victory](https://codeforces.com/contest/61/problem/D) | [GNU C++17](./codeforces/61/D.cpp) | `dfs and similar` `graphs` `greedy` `shortest paths` `trees` `*1800` | Dec/02/2022 21:46 | 
+552 | [D2 - Magic Powder - 2](https://codeforces.com/contest/670/problem/D2) | [GNU C++17](./codeforces/670/D2.cpp) | `binary search` `implementation` `*1500` | Dec/02/2022 04:56 | 
+551 | [D1 - Magic Powder - 1](https://codeforces.com/contest/670/problem/D1) | [GNU C++17](./codeforces/670/D1.cpp) | `binary search` `brute force` `implementation` `*1400` | Dec/02/2022 04:46 | 
 550 | [D - Yet Another Recursive Function](https://atcoder.jp/contests/abc275/tasks/abc275_d) | [C++ (GCC 9.2.1)](./atcoder/abc275/D.cpp) | `AtCoder` `*400` | Nov/02/2022 00:30 | 
 549 | [C - Stripes](https://codeforces.com/contest/1742/problem/C) | [GNU C++17](./codeforces/1742/C.cpp) | `implementation` | Oct/13/2022 21:34 | 
 548 | [D - Coprime](https://codeforces.com/contest/1742/problem/D) | [GNU C++17](./codeforces/1742/D.cpp) | `brute force` `greedy` `number theory` | Oct/13/2022 21:18 | 
