@@ -10089,6 +10089,23 @@
     ],
     "timestamp": "Oct/13/2022 21:34"
   },
+  "CF183714082": {
+    "contest_id": 706,
+    "language": "GNU C++17",
+    "path": "codeforces/706/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Hard problem",
+    "problem_url": "https://codeforces.com/contest/706/problem/C",
+    "submission_id": "CF183714082",
+    "submission_url": "https://codeforces.com/contest/706/submission/183714082",
+    "tags": [
+      "dp",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Dec/03/2022 16:13"
+  },
   "CF183756376": {
     "contest_id": 706,
     "language": "GNU C++17",
