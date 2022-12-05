@@ -5,6 +5,7 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
+* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/kunal0403.svg)](https://codeforces.com/profile/kunal0403)
 * AtCoder &nbsp; [![AtCoder](https://run.kaist.ac.kr/badges/atcoder/kunal0403.svg)](https://atcoder.jp/users/kunal0403)
 
 
@@ -12,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+551 | [C - Vasya and String](https://codeforces.com/contest/676/problem/C) | [GNU C++17](./codeforces/676/C.cpp) | `binary search` `dp` `strings` `two pointers` `*1500` | Dec/05/2022 11:35 | 
 550 | [D - Yet Another Recursive Function](https://atcoder.jp/contests/abc275/tasks/abc275_d) | [C++ (GCC 9.2.1)](./atcoder/abc275/D.cpp) | `AtCoder` `*400` | Nov/02/2022 00:30 | 
 549 | [C - Stripes](https://codeforces.com/contest/1742/problem/C) | [GNU C++17](./codeforces/1742/C.cpp) | `implementation` | Oct/13/2022 21:34 | 
 548 | [D - Coprime](https://codeforces.com/contest/1742/problem/D) | [GNU C++17](./codeforces/1742/D.cpp) | `brute force` `greedy` `number theory` | Oct/13/2022 21:18 | 
