@@ -58,15 +58,15 @@ ll mod = 1000000007;
 */
 set<ll> pp;
 void init(){
-    vector<bool> prime(1e7+5,true);
-    fr(i,2,1e7+1,1){
+    vector<bool> prime(1e8+5,true);
+    fr(i,2,1e8+1,1){
         if(prime[i]){
-            fr(j,2*i,1e7+1,i){
+            fr(j,2*i,1e8+1,i){
                 prime[j] = false;
             }
         }
     }
-    fr(i,2,1e7+1,1){
+    fr(i,2,1e8+1,1){
         if(prime[i]){
             pp.insert(i);
         }
@@ -82,7 +82,9 @@ void solve(int xx){
         if((ll)n%x==0){
             ll tt = n/x;
             ll p = sqrt(tt);
-            cout << p << " " << x << endl; return;
+            if((ll)p*p==tt){
+                cout << p << " " << x << endl; return;
+            }
         }
     }
 }
