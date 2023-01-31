@@ -11490,6 +11490,29 @@
     ],
     "timestamp": "Dec/05/2022 11:35"
   },
+  "CF191414459": {
+    "contest_id": 1790,
+    "language": "GNU C++17",
+    "path": "codeforces/1790/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Timofey and Black-White Tree",
+    "problem_url": "https://codeforces.com/contest/1790/problem/F",
+    "submission_id": "CF191414459",
+    "submission_url": "https://codeforces.com/contest/1790/submission/191414459",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "divide and conquer",
+      "graphs",
+      "greedy",
+      "math",
+      "shortest paths",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Jan/31/2023 22:50"
+  },
   "CF191552214": {
     "contest_id": 1778,
     "language": "GNU C++17",
