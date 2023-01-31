@@ -124,25 +124,23 @@ void initLCA(int n){
     }
 }
 
-int getLCA(int u, int v){
-    if(L[u]>L[v]){
-        swap(u,v);
-    }
-    int d = L[v]-L[u];
-    for(int i=LOG; i>=0; i--){
-        if(d&(1<<i)){
-            v = LCA[v][i];
-        }
-    }
-    if(u==v){
-        return u;
-    }
-    for(int i=LOG; i>=0; i--){
-        if(LCA[u][i]!=-1 && LCA[u][i]!=LCA[v][i]){
-    		u = LCA[u][i] , v = LCA[v][i];
+int getLCA(int a , int b){
+	if(L[b] < L[a]){
+	    swap(a,b);
+	}
+	int d = L[b]-L[a];
+	while(d>0){
+		int i = log2(d);
+		b = LCA[b][i];
+		d -= 1 << i;
+	}
+	if(a==b) return a;
+	for(int i=LOG;i>=0;i--){
+    	if(LCA[a][i] != -1 && (LCA[a][i] != LCA[b][i])){
+    		a = LCA[a][i] , b = LCA[b][i];
     	}
-    }
-    return LCA[u][0];
+	}
+	return LCA[a][0];
 }
 
 int getDist(int u, int v){
