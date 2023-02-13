@@ -11490,6 +11490,24 @@
     ],
     "timestamp": "Dec/05/2022 11:35"
   },
+  "CF193470461": {
+    "contest_id": 1793,
+    "language": "GNU C++17",
+    "path": "codeforces/1793/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Dora and Search",
+    "problem_url": "https://codeforces.com/contest/1793/problem/C",
+    "submission_id": "CF193470461",
+    "submission_url": "https://codeforces.com/contest/1793/submission/193470461",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Feb/13/2023 18:36"
+  },
   "CF193636429": {
     "contest_id": 519,
     "language": "GNU C++17",
