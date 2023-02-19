@@ -13,9 +13,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-626 | [C - Max MEX](https://atcoder.jp/contests/abc290/tasks/abc290_c) | [C++ (GCC 9.2.1)](./atcoder/abc290/C.cpp) | `AtCoder` `*300` | Feb/19/2023 17:38 | 
-625 | [B - Qual B](https://atcoder.jp/contests/abc290/tasks/abc290_b) | [C++ (GCC 9.2.1)](./atcoder/abc290/B.cpp) | `AtCoder` `*200` | Feb/19/2023 17:34 | 
-624 | [A - Contest Result](https://atcoder.jp/contests/abc290/tasks/abc290_a) | [C++ (GCC 9.2.1)](./atcoder/abc290/A.cpp) | `AtCoder` `*100` | Feb/19/2023 17:31 | 
+627 | [C - Max MEX](https://atcoder.jp/contests/abc290/tasks/abc290_c) | [C++ (GCC 9.2.1)](./atcoder/abc290/C.cpp) | `AtCoder` `*300` | Feb/19/2023 17:38 | 
+626 | [B - Qual B](https://atcoder.jp/contests/abc290/tasks/abc290_b) | [C++ (GCC 9.2.1)](./atcoder/abc290/B.cpp) | `AtCoder` `*200` | Feb/19/2023 17:34 | 
+625 | [A - Contest Result](https://atcoder.jp/contests/abc290/tasks/abc290_a) | [C++ (GCC 9.2.1)](./atcoder/abc290/A.cpp) | `AtCoder` `*100` | Feb/19/2023 17:31 | 
+624 | [E - XOR on Segment](https://codeforces.com/contest/242/problem/E) | [GNU C++17](./codeforces/242/E.cpp) | `bitmasks` `data structures` `*2000` | Feb/19/2023 16:43 | 
 623 | [C - Don’t be cycle](https://atcoder.jp/contests/abc288/tasks/abc288_c) | [C++ (GCC 9.2.1)](./atcoder/abc288/C.cpp) | `AtCoder` `*300` | Feb/04/2023 17:35 | 
 622 | [B - Qualification Contest](https://atcoder.jp/contests/abc288/tasks/abc288_b) | [C++ (GCC 9.2.1)](./atcoder/abc288/B.cpp) | `AtCoder` `*200` | Feb/04/2023 17:32 | 
 621 | [A - Many A+B Problems](https://atcoder.jp/contests/abc288/tasks/abc288_a) | [C++ (GCC 9.2.1)](./atcoder/abc288/A.cpp) | `AtCoder` `*100` | Feb/04/2023 17:30 | 
