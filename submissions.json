@@ -735,6 +735,22 @@
     ],
     "timestamp": "Nov/02/2022 00:30"
   },
+  "AC39014622": {
+    "contest_id": "abc290",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc290/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Qual B",
+    "problem_url": "https://atcoder.jp/contests/abc290/tasks/abc290_b",
+    "submission_id": "AC39014622",
+    "submission_url": "https://atcoder.jp/contests/abc290/submissions/39014622",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Feb/19/2023 17:34"
+  },
   "AC39019218": {
     "contest_id": "abc290",
     "language": "C++ (GCC 9.2.1)",
