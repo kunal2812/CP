@@ -12418,6 +12418,25 @@
     ],
     "timestamp": "Feb/19/2023 16:43"
   },
+  "CF196127155": {
+    "contest_id": 1800,
+    "language": "GNU C++17",
+    "path": "codeforces/1800/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Dasha and Nightmares",
+    "problem_url": "https://codeforces.com/contest/1800/problem/F",
+    "submission_id": "CF196127155",
+    "submission_url": "https://codeforces.com/contest/1800/submission/196127155",
+    "tags": [
+      "bitmasks",
+      "hashing",
+      "meet-in-the-middle",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "Mar/05/2023 17:08"
+  },
   "CF196142799": {
     "contest_id": 75,
     "language": "GNU C++17",
