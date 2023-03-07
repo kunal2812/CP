@@ -12418,6 +12418,23 @@
     ],
     "timestamp": "Feb/19/2023 16:43"
   },
+  "CF196371451": {
+    "contest_id": 63,
+    "language": "GNU C++17",
+    "path": "codeforces/63/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Bulls and Cows",
+    "problem_url": "https://codeforces.com/contest/63/problem/C",
+    "submission_id": "CF196371451",
+    "submission_url": "https://codeforces.com/contest/63/submission/196371451",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Mar/07/2023 16:42"
+  },
   "CF196400723": {
     "contest_id": 1625,
     "language": "GNU C++17",
