@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-676 | [E - Tree Queries](https://codeforces.com/contest/1328/problem/E) | [GNU C++17](./codeforces/1328/E.cpp) | `dfs and similar` `graphs` `trees` `*1900` | Mar/14/2023 20:42 | 
+677 | [E - Tree Queries](https://codeforces.com/contest/1328/problem/E) | [GNU C++17](./codeforces/1328/E.cpp) | `dfs and similar` `graphs` `trees` `*1900` | Mar/14/2023 20:42 | 
+676 | [E2 - Erase and Extend (Hard Version)](https://codeforces.com/contest/1537/problem/E2) | [GNU C++17](./codeforces/1537/E2.cpp) | `binary search` `data structures` `greedy` `hashing` `string suffix structures` `strings` `two pointers` `*2200` | Mar/14/2023 14:37 | 
 675 | [C - Max MEX](https://atcoder.jp/contests/abc290/tasks/abc290_c) | [C++ (GCC 9.2.1)](./atcoder/abc290/C.cpp) | `AtCoder` `*300` | Feb/19/2023 17:38 | 
 674 | [B - Qual B](https://atcoder.jp/contests/abc290/tasks/abc290_b) | [C++ (GCC 9.2.1)](./atcoder/abc290/B.cpp) | `AtCoder` `*200` | Feb/19/2023 17:34 | 
 673 | [A - Contest Result](https://atcoder.jp/contests/abc290/tasks/abc290_a) | [C++ (GCC 9.2.1)](./atcoder/abc290/A.cpp) | `AtCoder` `*100` | Feb/19/2023 17:31 | 
