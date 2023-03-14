@@ -895,6 +895,22 @@
     ],
     "timestamp": "Feb/19/2023 17:38"
   },
+  "AC39717691": {
+    "contest_id": "abc293",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc293/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Make Takahashi Happy",
+    "problem_url": "https://atcoder.jp/contests/abc293/tasks/abc293_c",
+    "submission_id": "AC39717691",
+    "submission_url": "https://atcoder.jp/contests/abc293/submissions/39717691",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/14/2023 10:04"
+  },
   "AC39718009": {
     "contest_id": "abc293",
     "language": "C++ (GCC 9.2.1)",
