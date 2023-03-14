@@ -68,35 +68,75 @@ typedef tree<int, null_type,less_equal<int>, rb_tree_tag,tree_order_statistics_n
 ll mod = 1000000007;
 
 #define N 200005
+#define LOG 17
+
+int L[N];
 vi G[N];
-int P[N], L[N], Tin[N], Tout[N];
-int tim;
-void dfs(int x, int p, int l){
-    P[x] = p;
-    L[x] = l;
-    Tin[x] = tim++;
-    for(auto u:G[x]){
-        if(u!=p){
-            dfs(u,x,l+1);
+int LCA[N][LOG+1];
+
+void dfs(int node, int p, int l){
+    L[node] = l;
+    LCA[node][0] = p;
+    for(int x:G[node]){
+        if(x!=p){
+            dfs(x,node,l+1);
         }
     }
-    Tout[x] = tim++;
 }
-bool isAncestor(int x, int y){
-    if(Tin[x]<=Tin[y] && Tout[x]>=Tout[y]){
-        return true;
-    }
-    return false;
+
+void initLCA(int n){
+	dfs(1,-1,0);
+	for(int i=1;i<=LOG;i++){
+		for(int j=1;j<=n;j++){
+    		if(LCA[j][i-1] != -1){
+    			int par = LCA[j][i-1];
+    			LCA[j][i] = LCA[par][i-1];
+    		}
+		}
+	}
 }
+
+int getLCA(int a , int b){
+	if(L[b] < L[a]){
+	    swap(a,b);
+	}
+	int d = L[b]-L[a];
+	while(d>0){
+		int i = log2(d);
+		b = LCA[b][i];
+		d -= 1 << i;
+	}
+	if(a==b) return a;
+	for(int i=LOG;i>=0;i--){
+    	if(LCA[a][i] != -1 && (LCA[a][i] != LCA[b][i])){
+    		a = LCA[a][i] , b = LCA[b][i];
+    	}
+	}
+	return LCA[a][0];
+}
+
+int getDist(int a , int b){
+	int lca = getLCA(a , b);
+	int dist = L[a] + L[b] - 2*L[lca];
+	return dist;
+}
+
 void solve(int xx){ 
     int n,m; cin >> n >> m;
-    tim = 0;
+    for(int i=1;i<=LOG;i++){
+		for(int j=1;j<=n;j++){
+    		if(LCA[j][i-1] != -1){
+    			int par = LCA[j][i-1];
+    			LCA[j][i] = LCA[par][i-1];
+    		}
+		}
+	}
     fr(i,1,n,1){
         int u,v; cin >> u >> v;
         G[u].pb(v);
         G[v].pb(u);
     }
-    dfs(1,-1,0);
+    initLCA(n);
     while(m--){
         int se; cin >> se;
         int u = 1, lvl = -1;
@@ -111,7 +151,9 @@ void solve(int xx){
         }
         bool ok = true;
         for(int t:all){
-            if(!isAncestor(t,u) && !isAncestor(P[t],u)){
+            int lca = getLCA(u,t);
+            // cout << u << " " << t << " " << lca << endl;
+            if(getDist(lca,t)>1){
                 ok = false; break;
             }
         }
